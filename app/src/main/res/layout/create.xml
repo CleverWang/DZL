@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/chu"
+        android:id="@+id/content"
+        android:layout_width="257dp"
+        android:layout_height="401dp"
+        android:ems="10"
+        android:gravity="center"
+        android:maxLength="100"
+        android:textSize="24dp"
+        android:inputType="textMultiLine"
+        android:textColor="#ffffff"
+        android:hint="请写下你要出的段子" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/create"
+        android:layout_width="198dp"
+        android:background="@drawable/go"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="提交" />
+</LinearLayout>

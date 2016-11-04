@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10">
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/after" />
+
+        <EditText
+            android:id="@+id/context"
+            android:layout_width="wrap_content"
+            android:layout_height="1200px"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@drawable/additem"
+            android:enabled="false"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="点击左右两个按钮可以浏览未完成的段子。现在，请发挥你的想象力，来续接段子，最终完成一个精彩的段子。\n( •̀ .̫ •́ )✧"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/before" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="16"
+            android:hint="请续接..."
+            android:maxLength="100"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/go"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:text="提交" />
+    </LinearLayout>
+
+</LinearLayout>

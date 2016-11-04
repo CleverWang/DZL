@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+  >
+
+    <LinearLayout android:layout_width="300dp"
+        android:weightSum="1"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/setbar_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="用户："
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/register_account"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:layout_weight="0.80"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/setbar_bg"
+        android:weightSum="1"
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="密码："
+            android:textSize="18dp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:layout_weight="0.80"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/setbar_bg"
+        android:weightSum="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="确认：" />
+
+
+
+        <EditText
+            android:id="@+id/password_confirm"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:layout_weight="0.80"
+            android:layout_width="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/zhuce"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="注册" />
+</LinearLayout>

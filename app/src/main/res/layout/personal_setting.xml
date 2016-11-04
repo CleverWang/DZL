@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/mine"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/write"
+        android:text="出过的段子"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/written"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/add"
+        android:text="填过的段子"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/collection"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/read"
+        android:text="我的收藏"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/god"
+        android:text="修改密码"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/loginbutton"
+        android:text="注销"
+        android:textSize="18dp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

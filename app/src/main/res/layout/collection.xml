@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="573dp"
+        android:layout_weight="3.66"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/coleft"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/after" />
+
+
+        <EditText
+            android:id="@+id/cocontext"
+            android:layout_width="wrap_content"
+            android:layout_height="1200px"
+            android:layout_gravity="center"
+            android:layout_weight="10"
+            android:background="@drawable/roundedittext"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:text="你没有任何收藏的段子!快去收藏吧！✧٩(ˊωˋ*)و✧"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/coright"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/before" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uncollect"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/uncollect"
+        android:text="取消收藏"
+        android:textSize="4.8pt"/>
+
+</LinearLayout>
